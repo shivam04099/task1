@@ -1,0 +1,194 @@
+
+/* Background Image 
+body {
+    background-image: url('https://picsum.photos/1920/1080');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+                 Image Gallery
+  .container {
+    margin-top: 50px;
+  }
+  
+  .img-fluid {
+    margin-bottom: 20px;
+  }
+  
+                          Login/Signup Modals 
+  .modal-body {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+  }
+*/  
+
+/* Custom CSS */
+body {
+    background-image: url('https://images.unsplash.com/photo-1620262202836-051d69f75490?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .navbar {
+    background-color: #15171b;
+    }
+    
+    .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    }
+    /* color boxes*/
+    .color-boxes {
+        display: flex;
+        flex-direction: row; /* or column */
+    }
+      .color-box {
+        width: 20px;
+        height: 20px;
+        margin: 1px;
+        border: 2px solid black;
+        position: relative;
+
+      }
+      
+      .white {
+        background-color: dark white;
+      }
+      .l-white {
+        background-color: rgb(179, 190, 181);
+      }
+      .s-white {
+        background-color: whitesmoke;
+      }
+      .li-white {
+        background-color: #fdf6f6;
+      }
+      
+      .l-grey {
+        background-color: rgb(95, 89, 89);
+      }
+      .li-grey {
+        background-color: rgb(59, 51, 51);
+      }
+      .grey {
+        background-color: rgb(36, 28, 28);
+      }
+      .l-black {
+        background-color: rgb(25, 26, 32);
+      }
+      .li-black {
+        background-color: rgb(7, 7, 8);
+      }
+      .black {
+        background-color: rgb(10, 2, 2);
+      }
+      .red{
+        background-color: rgb(151, 22, 22);
+      }
+      .blue{
+        background-color: rgb(38, 38, 104);
+      }
+      .pink{
+        background-color: pink;
+      }
+      .purple{
+        background-color: rgb(104, 9, 104);
+      }
+      .green{
+        background-color: rgb(42, 112, 42);
+      }
+      .yellow{
+        background-color: rgb(129, 129, 40);
+      }
+      .brown{
+        background-color: rgb(139, 71, 71);
+      }
+      
+      
+    
+      .container {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      
+      }
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .img-fluid1{
+        height: 600px;
+        width: 350px;
+    }
+    .container1 {
+        margin-top: 80px;
+        margin-left: 105px;
+        margin-right: 85px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container2 {
+            margin-top: 80px;
+            margin-left: 105px;
+            margin-right: 85px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+      }
+         
+
+    
+    .card-columns {
+    column-count: 1;
+    }
+    
+    .card {
+    margin-bottom: 30px;
+    }
+    
+    .card-img-top {
+    height: 250px;
+    object-fit: cover;
+    }
+    
+    .modal-header {
+    background-color: #563d7c;
+    color: #fff;
+    }
+    
+    .modal-content {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .btn-primary {
+    background-color: #563d7c;
+    border-color: #563d7c;
+    }
+    
+    .btn-primary:hover {
+    background-color: #452b61;
+    border-color: #452b61;
+    }
+    .image-title {
+      width: 8em; /* adjust this value to set the maximum width of the title */
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      margin-top: 50px;
+      margin-left: 60px;
+      
+    }
+    
+    .image-title:hover {
+      white-space: normal;
+    }
